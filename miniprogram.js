@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['plugin:prettier/recommended'],
+  extends: ['./base', 'plugin:prettier/recommended'],
   plugins: ['import'],
   globals: {
     require: true,

@@ -4,6 +4,7 @@ module.exports = {
   root: true,
   extends: ['eslint-config-airbnb-base'],
   parserOptions: {
+    parser: '@typescript-eslint/parser',
     ecmaVersion: 2019,
     sourceType: 'module',
     allowImportExportEverywhere: true,

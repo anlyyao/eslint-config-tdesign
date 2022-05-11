@@ -1,7 +1,7 @@
 const vueRule = require('./rules/vue');
 
 module.exports = {
-  extends: ['plugin:vue/essential', '@vue/typescript/recommended'],
+  extends: ['./base', 'plugin:vue/essential', '@vue/typescript/recommended'],
   parser: 'vue-eslint-parser',
   plugins: ['vue'],
   globals: {

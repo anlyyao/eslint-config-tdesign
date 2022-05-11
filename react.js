@@ -2,6 +2,7 @@ const reactRule = require('./rules/react');
 
 module.exports = {
   extends: [
+    './base',
     'prettier', // eslint-config-prettier 处理冲突
     'plugin:react/recommended',
     'plugin:import/typescript',

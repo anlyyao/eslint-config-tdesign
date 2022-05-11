@@ -1,11 +1,10 @@
 const vueRule = require('./rules/vue');
 
 module.exports = {
-  extends: ['plugin:vue/vue3-recommended', 'plugin:prettier/recommended'],
+  extends: ['./base', 'plugin:vue/vue3-recommended', 'plugin:prettier/recommended'],
   plugins: ['vue'],
   parser: 'vue-eslint-parser',
   parserOptions: {
-    parser: '@typescript-eslint/parser',
     extraFileExtensions: ['.vue'],
   },
   globals: {

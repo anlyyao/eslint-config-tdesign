@@ -1,19 +1,20 @@
 {
   "name": "eslint-config-tdesign",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "main": "index.js",
   "description": "ESLint config for TDesign",
   "keywords": [
     "eslint",
-    "eslintplugin",
-    "eslint-plugin",
     "eslintconfig",
+    "config",
     "tdesign",
     "vue",
     "react",
-    "typescript"
+    "typescript",
+    "miniprogram"
   ],
-  "author": "none",
-  "main": "index.js",
+  "author": "tdesign",
+  "license": "MIT",
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
@@ -38,6 +39,18 @@
     "typescript": "^4.6.3",
     "vue-eslint-parser": "^8.3.0"
   },
-  "peerDependencies": {},
-  "license": "MIT"
+  "peerDependencies": {
+    "eslint": "^7.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-lodash": "^7.4.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "eslint-plugin-vue": "^8.7.1",
+    "vue-eslint-parser": "^8.3.0",
+    "typescript": "^4.6.3"
+  }
 }

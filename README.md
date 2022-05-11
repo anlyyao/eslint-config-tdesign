@@ -9,7 +9,7 @@ ESLint config for TDesign
 ## Base Usage
 ### Installation
 ```sh
-npm i eslint eslint-config-airbnb-base eslint-plugin-tdesign --save-dev
+npm i eslint @typescript-eslint/parser eslint-plugin-import eslint-config-tdesign --save-dev
 ```
 ### Use
 ```json
@@ -24,14 +24,13 @@ npm i eslint eslint-config-airbnb-base eslint-plugin-tdesign --save-dev
 ## Miniprogram Usage
 ### Installation
 ```sh
-npm i eslint eslint-config-airbnb-base eslint-config-prettier eslint-plugin-import eslint-plugin-tdesign --save-dev
+npm i eslint @typescript-eslint/parser eslint-plugin-import eslint-config-prettier eslint-plugin-prettier eslint-config-tdesign --save-dev
 ```
 ### Use
 ```json
 // .eslintrc.js
 {
 	"extends": [
-		"tdesign",
 		"tdesign/miniprogram"
 	]
 }
@@ -40,7 +39,7 @@ npm i eslint eslint-config-airbnb-base eslint-config-prettier eslint-plugin-impo
 ## TypeScript Usage
 ### Installation
 ```sh
-npm install eslint typescript eslint-config-airbnb-base @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-tdesign --save-dev
+npm install eslint typescript @typescript-eslint/parser eslint-plugin-import @typescript-eslint/eslint-plugin eslint-config-tdesign --save-dev
 ```
 ### Use
 ```json
@@ -56,14 +55,13 @@ npm install eslint typescript eslint-config-airbnb-base @typescript-eslint/parse
 ## Vue Usage
 ### Installation
 ```sh
-npm i eslint eslint-config-airbnb-base eslint-config-prettier vue-eslint-parser eslint-plugin-vue @vue/eslint-config-typescript eslint-plugin-tdesign --save-dev
+npm i eslint vue-eslint-parser eslint-plugin-import eslint-plugin-vue @typescript-eslint/eslint-plugin eslint-config-tdesign --save-dev
 ```
 ### Use
 ```json
 // .eslintrc.js
 {
 	"extends": [
-		"tdesign",
 		"tdesign/vue"
 	]
 }
@@ -71,14 +69,13 @@ npm i eslint eslint-config-airbnb-base eslint-config-prettier vue-eslint-parser 
 ## Vue-next Usage
 ### Installation
 ```sh
-npm i eslint eslint-config-airbnb-base eslint-config-prettier vue-eslint-parser eslint-plugin-vue  eslint-plugin-tdesign --save-dev
+npm i eslint vue-eslint-parser eslint-plugin-import eslint-config-prettier eslint-plugin-prettier eslint-plugin-vue eslint-config-tdesign --save-dev
 ```
 ### Use
 ```json
 // .eslintrc.js
 {
 	"extends": [
-		"tdesign",
 		"tdesign/vue-next"
 	]
 }
@@ -87,14 +84,13 @@ npm i eslint eslint-config-airbnb-base eslint-config-prettier vue-eslint-parser 
 ## React Usage
 ### Installation
 ```sh
-npm i eslint prettier eslint-config-airbnb-base eslint-config-prettier eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-lodash eslint-plugin-tdesign --save-dev
+npm i eslint @typescript-eslint/parser eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-lodash eslint-config-tdesign --save-dev
 ```
 ### Use
 ```json
 // .eslintrc.js
 {
 	"extends": [
-		"tdesign",
 		"tdesign/react"
 	]
 }
@@ -103,14 +99,13 @@ npm i eslint prettier eslint-config-airbnb-base eslint-config-prettier eslint-pl
 ## TypeScript React Usage
 ### Installation
 ```sh
-npm install eslint typescript eslint-config-airbnb-base eslint-config-prettier  @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-react eslint-plugin-tdesign --save-dev
+npm install eslint typescript @typescript-eslint/parser eslint-plugin-import @typescript-eslint/eslint-plugin eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-lodash eslint-config-tdesign --save-dev
 ```
 ### Use
 ```json
 // .eslintrc.js
 {
 	"extends": [
-		"tdesign",
 		"tdesign/typescript",
 		"tdesign/react",
 	]
